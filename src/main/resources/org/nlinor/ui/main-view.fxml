@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane xmlns:fx="http://javafx.com/fxml"
+         fx:controller="org.nlinor.ui.controller.MainController">
+    <tabs>
+        <!-- Boş bir başlangıç sekmesi -->
+        <Tab text="Ana Sayfa">
+            <VBox alignment="CENTER" spacing="10">
+                <Label text="ERP Ana Sayfasına Hoş Geldiniz!" />
+            </VBox>
+        </Tab>
+
+        <!-- Ürün Yönetimi sekmesi -->
+        <Tab text="Ürün Yönetimi">
+            <fx:include source="stock-view.fxml"/>
+        </Tab>
+    </tabs>
+</TabPane>
