@@ -10,7 +10,7 @@ public class Main {
         ProductDao.createTable(); // Tabloyu oluştur
         ProductDao.addQuantityColumn(); // Sütunu ekle
 
-        // JavaFX uygulamasını başlat
+        // JavaFX uygulamasını başlatt
         Application.launch(MainApp.class, args);
 
     }
